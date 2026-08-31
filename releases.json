@@ -22,13 +22,14 @@
   ],
   "channels": {
     "canary": {
-      "version": "1.3.16",
+      "version": "1.3.15",
       "releaseAt": "2026-08-31T00:00:00Z",
-      "notes": "Güncelleme bittiğinde artık bir onay penceresi çıkıyor; ilerleme çubuğunun takılı kalması giderildi.",
+      "notes": "Güncelleme artık baştan sona sorunsuz çalışıyor.",
       "highlights": [
-        "Güncelleme bitince \"Tamam\" penceresi çıkıyor; uygulama siz onayladığınızda yenileniyor",
-        "İlerleme çubuğunun %100'de takılı kalması giderildi",
-        "Güncelleme sunucuda çalışıyor — sekmeyi kapatabilirsiniz"
+        "Güncelleme sunucuda çalışıyor — sekmeyi kapatabilirsiniz",
+        "Yeni sürüm çıktığında uygulama açıkken de haber veriyor",
+        "Miadı yaklaşan ilaçlar için uyarı geliyor",
+        "Kırmızı, yeşil ve mor reçete ilaçları artık işaretli"
       ]
     },
     "early": {
