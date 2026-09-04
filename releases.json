@@ -22,15 +22,14 @@
   ],
   "channels": {
     "canary": {
-      "version": "1.4.0",
-      "releaseAt": "2026-08-31T00:00:00Z",
-      "notes": "Depo faturasını dosyadan yükleyip stoğa alabiliyorsunuz; kutuların parti ve son kullanma tarihi faturadan okunuyor.",
+      "version": "1.4.3",
+      "releaseAt": "2026-09-04T00:00:00Z",
+      "notes": "Lisansınızın durumunu artık menüden görebiliyorsunuz: ne zaman dolacağı ve süre dolduğunda neyin kapanıp neyin açık kalacağı tek sayfada.",
       "highlights": [
-        "Yeni ekran: Alış → Faturadan al. Depodan indirdiğiniz e-Fatura dosyasını (XML ya da ZIP) yükleyin, faturalar listelensin, seçtiklerinizi tek düğmeyle içeri alın",
-        "Kutular stoğa parti ve miadıyla giriyor — alış maliyeti de faturadan okunuyor, artık elle girmeye gerek yok",
-        "Aynı kutu iki kez stoğa girmiyor: daha önce alınmış seri numaraları otomatik atlanıyor",
-        "Zip içindeki bütün faturalar tek seferde okunuyor (GİB Portal'da Gelen Kutusu → Arşiv → İndir)",
-        "Kapanmayan emanetler artık uyarı veriyor: 30 gündür reçetesi gelmemiş emanet varsa bildirim düşüyor"
+        "Yeni ekran: Sistem → Lisans. Lisansın kime ait olduğu, ne zaman dolacağı ve kaç gün kaldığı burada",
+        "Süre dolduğunda ne olacağı adım adım yazılı: kasa süre dolar dolmaz durmuyor — önce 30 gün uyarı, sonra 30 gün ödemesiz dönem (satış hâlâ açık), ondan sonra yalnızca yeni fiş kapanıyor",
+        "Fiş iptali, cari ekstre, SGK faturası ve sayım lisans dolduktan sonra da açık kalıyor",
+        "Kurulum ve e-posta ayarlarında yapılan düzeltmeler"
       ]
     },
     "early": {
