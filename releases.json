@@ -22,13 +22,14 @@
   ],
   "channels": {
     "canary": {
-      "version": "1.4.4",
-      "releaseAt": "2026-09-04T00:00:00Z",
-      "notes": "Güncelleme penceresi artık Tamam dendiğinde kapanıyor; önceki sürümde kapanmayıp tekrar açılıyordu.",
+      "version": "1.4.5",
+      "releaseAt": "2026-09-06T00:00:00Z",
+      "notes": "Depo, hekim ve kapsam türü kartları artık menüde: Tanımlar altından açılıyor.",
       "highlights": [
-        "Güncelleme bittikten sonra pencere kapanıyor — daha önce sayfa yenilense de yeniden açılıyordu",
-        "Yeni kurulumlarda güncelleme kanalı kurulum sırasında ayarlanıyor; kutunun yeni sürümleri görememesi sorunu ortadan kalktı",
-        "Lisans ekranı (Sistem → Lisans): lisansın ne zaman dolacağı ve süre dolduğunda neyin kapanıp neyin açık kalacağı"
+        "Yeni ekran: Tanımlar → Depolar. Depo ekleyip düzenleyebiliyorsunuz — yetkili, telefon, faks, ödeme vadesi ve ÜTS numarası alanlarıyla",
+        "Yeni ekran: Tanımlar → Hekimler. Ad ya da diploma numarasıyla arama; diploma tescil numarası da görünüyor",
+        "Yeni ekran: Tanımlar → Kapsam türleri. Reçetenin hangi sigortalılık kapsamında karşılandığı (4A, 4B, Yeşil Kart…)",
+        "Depo kartında vergi numarası sorulmuyor — fatura geldiğinde kendiliğinden yazılıyor"
       ]
     },
     "early": {
