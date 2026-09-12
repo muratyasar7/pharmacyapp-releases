@@ -22,15 +22,13 @@
   ],
   "channels": {
     "canary": {
-      "version": "1.5.0",
+      "version": "1.6.0",
       "releaseAt": "2026-09-12T00:00:00Z",
-      "notes": "Medula ve SGK ödeme kontrolü düzeldi: reçeteyi kaydetmeden önce \"bu kalem ödenmeyebilir\" uyarısı alıyorsunuz.",
+      "notes": "SGK ödeme kuralları artık kendiliğinden yükleniyor — hiçbir şey yapmanıza gerek yok.",
       "highlights": [
-        "Reçete girerken SGK ödeme ön kontrolü: kalemleri okuttuktan sonra tek düğmeyle bakılıyor, kaydetmeye gerek yok",
-        "SGK kural defteri artık tam doluyor — barkodu değişmiş ilaçlar da eşleşiyor, önceden dörtte biri eksik kalıyordu",
-        "Medula günlük mutabakatı düzeldi: eskiden o günün her fişini \"Medula'da yok\" gösteriyordu",
-        "Miadı yaklaşan ilaç uyarısı artık AYDA BİR geliyor (her akşam yerine) ve e-postayla da bildiriliyor",
-        "Test kurulumlarında Medula düğmesi artık test portalını açıyor — yanlışlıkla gerçek Medula'ya gitmiyor"
+        "SGK'nın ödeme listesi (EK-4/A ve EK-4/F) uygulamayla birlikte geliyor ve açılışta kendiliğinden yükleniyor",
+        "\"SUT eklerinden güncelle\" düğmesi kaldırıldı — arkasında dosya indirip klasöre koyma işi vardı, artık gerekmiyor",
+        "Reçetedeki kalemler için \"ödenir / ödenmeyebilir\" bilgisi artık gerçekten çalışıyor"
       ]
     },
     "early": {
