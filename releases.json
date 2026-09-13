@@ -22,13 +22,15 @@
   ],
   "channels": {
     "canary": {
-      "version": "1.6.0",
-      "releaseAt": "2026-09-12T00:00:00Z",
-      "notes": "SGK ödeme kuralları artık kendiliğinden yükleniyor — hiçbir şey yapmanıza gerek yok.",
+      "version": "1.7.0",
+      "releaseAt": "2026-09-13T00:00:00Z",
+      "notes": "Raporlar geldi: rafınızın değeri, kârlılık, kime ne kadar borçlu olduğunuz ve hangi saatte yoğun olduğunuz artık tek yerden görülüyor.",
       "highlights": [
-        "SGK'nın ödeme listesi (EK-4/A ve EK-4/F) uygulamayla birlikte geliyor ve açılışta kendiliğinden yükleniyor",
-        "\"SUT eklerinden güncelle\" düğmesi kaldırıldı — arkasında dosya indirip klasöre koyma işi vardı, artık gerekmiyor",
-        "Reçetedeki kalemler için \"ödenir / ödenmeyebilir\" bilgisi artık gerçekten çalışıyor"
+        "Stok değerleme: rafınızda ne kadarlık mal var, ne kadarı miadına yaklaşıyor",
+        "Kârlılık: hangi üründen ne kazandığınız — maliyeti bilinmeyen kalemler ayrıca gösteriliyor",
+        "Cari yaşlandırma: hangi depoya ne kadar borçlusunuz ve o borç ne zamandan beri duruyor",
+        "Personel ve yoğunluk: kim kaç fiş kesti, hangi gün ve saatte kalabalık oluyor",
+        "Ciro grafiğindeki saat dağılımı üç saat kaymış görünüyordu, düzeldi"
       ]
     },
     "early": {
