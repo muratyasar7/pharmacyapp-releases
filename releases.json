@@ -22,15 +22,14 @@
   ],
   "channels": {
     "canary": {
-      "version": "1.7.0",
-      "releaseAt": "2026-09-13T00:00:00Z",
-      "notes": "Raporlar geldi: rafınızın değeri, kârlılık, kime ne kadar borçlu olduğunuz ve hangi saatte yoğun olduğunuz artık tek yerden görülüyor.",
+      "version": "1.7.1",
+      "releaseAt": "2026-09-16T00:00:00Z",
+      "notes": "Alış faturalarına vade girilebiliyor ve ödeme takvimi geldi: hangi gün hangi depoya ne kadar ödeyeceğinizi tek ekranda görüyorsunuz.",
       "highlights": [
-        "Stok değerleme: rafınızda ne kadarlık mal var, ne kadarı miadına yaklaşıyor",
-        "Kârlılık: hangi üründen ne kazandığınız — maliyeti bilinmeyen kalemler ayrıca gösteriliyor",
-        "Cari yaşlandırma: hangi depoya ne kadar borçlusunuz ve o borç ne zamandan beri duruyor",
-        "Personel ve yoğunluk: kim kaç fiş kesti, hangi gün ve saatte kalabalık oluyor",
-        "Ciro grafiğindeki saat dağılımı üç saat kaymış görünüyordu, düzeldi"
+        "Ödeme takvimi: önümüzdeki günlerde hangi depoya ne kadar ödeme var, hangileri gecikmiş",
+        "Fatura vadesi: tek vade ya da taksit girilebiliyor; toplamı fatura tutarıyla tutmak zorunda",
+        "Cari yaşlandırma artık vadeye bakıyor — 90 gün vadeli bir fatura, kesildikten 31 gün sonra gecikmiş görünmüyor",
+        "Eski programdaki 17.959 vade kaydı aktarıldı"
       ]
     },
     "early": {
