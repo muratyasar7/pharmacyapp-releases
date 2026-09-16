@@ -22,6 +22,16 @@
   ],
   "channels": {
     "canary": {
+      "version": "1.7.3",
+      "releaseAt": "2026-09-16T00:00:00Z",
+      "notes": "Bu sürümde ekranlarda bir değişiklik yok — SGK ilaç raporları için altyapı hazırlığı yapıldı.",
+      "highlights": [
+        "SGK ilaç raporlarına takip numarası alanı eklendi",
+        "Yeni kurulumlarda eski programdaki ilaç raporları da aktarılıyor",
+        "Raporların ekranı ve ödeme kontrolüne bağlanması sonraki sürümde"
+      ]
+    },
+    "early": {
       "version": "1.7.2",
       "releaseAt": "2026-09-16T00:00:00Z",
       "notes": "Miadı geçen ve hasarlı kutuları artık karekod okutarak imha edebiliyorsunuz; ay sonunda ne kadar zarar ettiğinizi tek ekranda görüyorsunuz.",
@@ -34,17 +44,16 @@
         "Rapor aralıkları bir gün geriden başlıyordu, düzeltildi"
       ]
     },
-    "early": {
-      "version": "1.2.4",
-      "releaseAt": "2026-01-01T00:00:00Z",
-      "notes": "Kararlı sürüm.",
-      "highlights": []
-    },
     "stable": {
-      "version": "1.2.4",
-      "releaseAt": "2026-01-01T00:00:00Z",
-      "notes": "Kararlı sürüm.",
-      "highlights": []
+      "version": "1.7.1",
+      "releaseAt": "2026-09-16T00:00:00Z",
+      "notes": "Depo faturalarına ödeme planı girebiliyor, önümüzdeki haftalarda ne kadar ödeyeceğinizi tek ekranda görebiliyorsunuz.",
+      "highlights": [
+        "Fatura vadesi ve taksitli ödeme planı — bir faturaya birden fazla vade girilebiliyor",
+        "Ödeme takvimi raporu: hangi gün hangi depoya ne kadar ödeme var",
+        "Cari yaşlandırma artık fatura tarihine değil VADEYE bakıyor — vadesi gelmemiş fatura gecikmiş görünmüyor",
+        "Güncelleme sırasında eksik ayar satırları artık uyarı veriyor"
+      ]
     }
   }
 }
