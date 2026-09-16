@@ -22,13 +22,17 @@
   ],
   "channels": {
     "canary": {
-      "version": "1.7.3",
-      "releaseAt": "2026-09-16T00:00:00Z",
-      "notes": "Bu sürümde ekranlarda bir değişiklik yok — SGK ilaç raporları için altyapı hazırlığı yapıldı.",
+      "version": "1.7.4",
+      "releaseAt": "2026-09-17T00:00:00Z",
+      "notes": "Majistral hazırlama ve kasa günü takibi geldi — kasayı akşam sayıp farkı görebiliyorsunuz.",
       "highlights": [
-        "SGK ilaç raporlarına takip numarası alanı eklendi",
-        "Yeni kurulumlarda eski programdaki ilaç raporları da aktarılıyor",
-        "Raporların ekranı ve ödeme kontrolüne bağlanması sonraki sürümde"
+        "Kasa: sabah günü açın, akşam parayı kupür kupür sayın — olması gereken ile sayılan arasındaki fark ekranda",
+        "Kasadan çıkan para (kargo, avans, bankaya yatırma) fişsiz hareket olarak yazılabiliyor",
+        "Fark düzeltilmiyor, kayda geçiyor — eksik ya da fazla neyse o görünüyor",
+        "Kart ve SGK tahsilatı kasaya girmiyor; o para çekmeceye değil bankaya gidiyor",
+        "Majistral: hazırladığınız ilacın hammaddelerini girin, maliyet ve hazırlama ücreti toplansın",
+        "Hammadde fiyatı sonradan değişse bile geçmiş hazırlamanın maliyeti değişmiyor",
+        "Kârlılık raporu geçmiş satışlar için ilk kez çalışıyor — eski programdan maliyetler aktarıldı"
       ]
     },
     "early": {
