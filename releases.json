@@ -22,17 +22,18 @@
   ],
   "channels": {
     "canary": {
-      "version": "1.7.4",
-      "releaseAt": "2026-09-17T00:00:00Z",
-      "notes": "Majistral hazırlama ve kasa günü takibi geldi — kasayı akşam sayıp farkı görebiliyorsunuz.",
+      "version": "1.8.0",
+      "releaseAt": "2026-09-25T00:00:00Z",
+      "notes": "Kutu geçmişi, takipli hasta, depoya iade ve SGK kesintileri geldi — bir kutunun başına ne geldiğini artık gerçek kayıtlardan görebiliyorsunuz.",
       "highlights": [
-        "Kasa: sabah günü açın, akşam parayı kupür kupür sayın — olması gereken ile sayılan arasındaki fark ekranda",
-        "Kasadan çıkan para (kargo, avans, bankaya yatırma) fişsiz hareket olarak yazılabiliyor",
-        "Fark düzeltilmiyor, kayda geçiyor — eksik ya da fazla neyse o görünüyor",
-        "Kart ve SGK tahsilatı kasaya girmiyor; o para çekmeceye değil bankaya gidiyor",
-        "Majistral: hazırladığınız ilacın hammaddelerini girin, maliyet ve hazırlama ücreti toplansın",
-        "Hammadde fiyatı sonradan değişse bile geçmiş hazırlamanın maliyeti değişmiyor",
-        "Kârlılık raporu geçmiş satışlar için ilk kez çalışıyor — eski programdan maliyetler aktarıldı"
+        "Kutu geçmişi: karekodu okutun, kutunun ne zaman geldiğini, kime satıldığını, takasa ya da iadeye gidip gitmediğini görün",
+        "Parti geri çağırmasında o partiden hangi fişlerle satış yapıldığı listeleniyor",
+        "Takipli hasta: ilacı ya da raporu bitecek hastalar takvimde ve bildirimde — telefonla aramayı unutmayın",
+        "Depoya mal iadesi: kutuları okutun, depo alacağı cari hesaba kendiliğinden yazılsın",
+        "Takas: karekod okutuluyor ve komşu eczaneyle hesaplaşma ekranı geldi",
+        "SGK kesintileri tek listede; hangi reçeteden ne kadar kesildiği görünüyor",
+        "Muadil ekranı artık çalışıyor — binlerce ilacın gerçek muadili listeleniyor",
+        "Personel parolasını eczacı veriyor; parola sıfırlama e-postası 6 haneli kod olarak geliyor"
       ]
     },
     "early": {
