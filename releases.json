@@ -22,18 +22,20 @@
   ],
   "channels": {
     "canary": {
-      "version": "1.8.0",
-      "releaseAt": "2026-09-25T00:00:00Z",
-      "notes": "Kutu geçmişi, takipli hasta, depoya iade ve SGK kesintileri geldi — bir kutunun başına ne geldiğini artık gerçek kayıtlardan görebiliyorsunuz.",
+      "version": "1.8.1",
+      "releaseAt": "2026-09-26T00:00:00Z",
+      "notes": "Mail ayarlarını artık kendiniz girebiliyorsunuz: eczane kartındaki yeni bölüme sağlayıcınızı seçip şifrenizi yazın, test maili düğmesiyle çalıştığını görün.",
       "highlights": [
-        "Kutu geçmişi: karekodu okutun, kutunun ne zaman geldiğini, kime satıldığını, takasa ya da iadeye gidip gitmediğini görün",
-        "Parti geri çağırmasında o partiden hangi fişlerle satış yapıldığı listeleniyor",
-        "Takipli hasta: ilacı ya da raporu bitecek hastalar takvimde ve bildirimde — telefonla aramayı unutmayın",
-        "Depoya mal iadesi: kutuları okutun, depo alacağı cari hesaba kendiliğinden yazılsın",
-        "Takas: karekod okutuluyor ve komşu eczaneyle hesaplaşma ekranı geldi",
-        "SGK kesintileri tek listede; hangi reçeteden ne kadar kesildiği görünüyor",
-        "Muadil ekranı artık çalışıyor — binlerce ilacın gerçek muadili listeleniyor",
-        "Personel parolasını eczacı veriyor; parola sıfırlama e-postası 6 haneli kod olarak geliyor"
+        "E-posta ayarları eczane kartında: Gmail, Yandex ve Outlook için sunucu bilgileri hazır geliyor — sadece adres ve şifre girin",
+        "\"Test maili gönder\" düğmesi: ayarın çalıştığını kendi adresinize mail alarak doğrulayın",
+        "Mail gönderilemezse sebebi ekranda yazıyor (\"şifre kabul edilmedi\" gibi) — artık körlemesine denemek gerekmiyor",
+        "Şifreniz veritabanında şifreli saklanıyor ve hiçbir ekranda geri gösterilmiyor",
+        "Gmail şifresini boşluklu kopyalasanız da çalışıyor",
+        "İzin bildirimleri, parola sıfırlama kodları ve hatırlatmalar bundan sonra bu hesaptan gidiyor",
+        "Sayımda daha önce okutulan kutu tekrar okutulduğunda uyarı geliyor — hangi cihazda okutulduğu da yazıyor",
+        "Sayımda barkodla sayılan ama stok kaydı olmayan ürünler artık fark listesinde görünüyor",
+        "Mobilde kamerayla karekod okutma: ters renkli kodlar ve aynı karede birden fazla kod okunuyor",
+        "Güncelleyici kendini içinden yenilerken takılıyordu, düzeltildi"
       ]
     },
     "early": {
